@@ -1,9 +1,80 @@
 #include <stdio.h>
 
-int main(){
-    char Cidade [20];
-    char Estado [10]
+int main() {
+    char CidadeA [20], CidadeB [20];
+    char EstadoA [10], EstadoB [10];
+    char CodigoA [10], CodigoB [10];
+    int PontosturisticosA, PontosturisticosB;
+    int PopulaçaoA, PopulaçaoB;
+    float PIBA, PIBB;
+    float AreaA, AreaB;
 
-    printf ("")
+//  Carta 1 ------------------------------------------------------
+    printf ("Digite o nome da cidade: \n");
+    scanf ("%s", &CidadeA);
+
+    printf ("Digite o nome do Estado: \n");
+    scanf ("%s", &EstadoA);
+
+    printf ("Digite o codigo da carta: \n");
+    scanf ("%s", &CodigoA);
+
+    printf ("Digite o numero de pontos turísticos da cidade: \n");
+    scanf ("%d", &PontosturisticosA);
+
+    printf ("Digite o número da população: \n");
+    scanf ("%d", &PopulaçaoA);
+
+    printf ("Digite o PIB da cidade: \n");
+    scanf ("%f", &PIBA);
+
+    printf ("Digite a área da cidade: \n");
+    scanf ("%f", &AreaA);
+    printf ("\n");
+
+//  Carta 2 ------------------------------------------------------
+    printf ("Digite o nome da cidade: \n");
+    scanf ("%s", &CidadeB);
+
+    printf ("Digite o nome do Estado: \n");
+    scanf ("%s", &EstadoB);
+
+    printf ("Digite o codigo da carta: \n");
+    scanf ("%s", &CodigoB);
+
+    printf ("Digite o numero de pontos turísticos da cidade: \n");
+    scanf ("%d", &PontosturisticosB);
+
+    printf ("Digite o número da população: \n");
+    scanf ("%d", &PopulaçaoB);
+
+    printf ("Digite o PIB da cidade: \n");
+    scanf ("%f", &PIBB);
+
+    printf ("Digite a área da cidade: \n");
+    scanf ("%f", &AreaB);
+
+//  Cartas Descritas: --------------------------------------------
+    printf ("\n");
+    printf ("Carta 1 \n");
+    printf ("Cidade: %s \n", CidadeA);
+    printf ("Estado: %s \n", EstadoA);
+    printf ("Código: %s \n", CodigoA);
+    printf ("Número de Pontos Turisticos: %d \n", PontosturisticosA);
+    printf ("População: %d de pessoas \n", PopulaçaoA);
+    printf ("PIB: %2f bilhões de reais \n", PIBA);
+    printf ("Área: %2fKm² \n", AreaA);
+
+    printf ("\n");
+    printf ("Carta 2 \n");
+    printf ("Cidade: %s \n", CidadeB);
+    printf ("Estado: %s \n", EstadoB);
+    printf ("Código: %s \n", CodigoB);
+    printf ("Número de Pontos Turisticos: %d \n", PontosturisticosB);
+    printf ("População: %d de pessoas \n", PopulaçaoB);
+    printf ("PIB: %2f bilhões de reais \n", PIBB);
+    printf ("Área: %2fKm² \n", AreaB);
+
+
   
 }
